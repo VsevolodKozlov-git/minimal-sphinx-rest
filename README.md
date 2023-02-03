@@ -5,7 +5,15 @@
 
 Это проект от Melissa Weber [ссылка](https://github.com/melissawm/minimalsphinx) + мои наработки по этому [гайду](https://sphinx-tutorial.readthedocs.io/start/). Репозиторий удобно использовать для быстрого знакомства с синтаксисом ReSt
 
-Для запуска генерации документации посмотреть в книгу python black belt
+
+Чтобы забилдить:
+```bash
+   sphinx-build -b doctest docs\source\ docs\build\  
+```
+С `-b doctest` могут возникать проблемы, что html файл не обновляется. Тогда напишите:
+```bash
+   sphinx-build docs\source\ docs\build\  
+```
 
 ## Продолжение readme от Melissa Weber
 
